@@ -50,7 +50,7 @@
 
     position: absolute;
     top: 0;
-    right:  -390 !important;
+    right:  -390px;
     img{
         width: 60%;
     }
