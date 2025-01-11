@@ -1,6 +1,7 @@
 import { animate, stagger } from "motion";
 import "./hero.css"
 import * as motion from "motion/react-client"
+import { useTypewriter } from "react-simple-typewriter";
 const Hero = () => {
 
     const textVariants = {
@@ -39,6 +40,10 @@ const Hero = () => {
         }
         
     }
+    const [text] = useTypewriter({
+      words:["FrontEnd","FullStack"]
+      ,loop:0
+    })
     return (
       <div className="hero container">
         <div className="wraap">
@@ -50,7 +55,7 @@ const Hero = () => {
           >
             <motion.h2 variants={textVariants}>YosefSameh</motion.h2>
             <motion.h1 variants={textVariants}>
-              Web Developer FullStack
+              Web Developer <span>{text}</span>
             </motion.h1>
             <motion.div variants={textVariants} className="buttons">
               <motion.button variants={textVariants}>
