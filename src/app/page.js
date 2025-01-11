@@ -37,9 +37,8 @@ export default function Home() {
       <section><Parallex type="Skills"/></section>
       <section className="h-100 "><Skills/></section>
       <section><Parallex type="Projects"/></section>
-      {/* <section>Projects</section> */}
       <Projects/>
-      <section  ><Contact /></section>
+      <section className="h-100"><Contact /></section>
     </div>
   );
 }
