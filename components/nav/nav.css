@@ -1,0 +1,21 @@
+.navbar{
+    height: 100px;
+    /* background: #01016b; */
+    color: white;
+
+    .wrraper{
+        max-width: 1366px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        height: 100%;
+    }
+    .sochil{
+        display: flex;
+        gap: 20px;
+    }
+    .sochil a img{
+        width: 18px;
+    }
+}
